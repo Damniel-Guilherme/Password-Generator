@@ -115,3 +115,23 @@ h1 {
     visibility: visible;
     opacity: 1;
   }
+
+
+  /* options */
+
+  h2 {
+    font: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+  }
+
+  input {
+    width: 30px;
+  }
+
+  label {
+    width: 30px;
+    font-size: 15px;
+    color: #fff;
+  }
