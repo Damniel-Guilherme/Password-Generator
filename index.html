@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Tag META define metadados sobre um documento HTML. Metadados são dados (informações) sobre dados -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Gerador de senhas">
-
-  <link rel="stylesheet" href="style.css">
+  <!-- Titulo da Página -->
   <title>Gerador de senha</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-<header>
-    <h1>Gerador de senhas</h1>
 
-    <div>
-        <h2>Escolha as opções</h2>
+  <!-- Conteudo Principal -->
+  <main>
 
-        <div>
-            <label for="apenasNumeros">Numeros</label>
-            <input type="checkbox" name="apenasNumeros" id="apenasNumeros">
+    <div class="container">
 
+      <div class="container-principal">
+        <div class="container-options-caracteres">
+          <h2>Characters:</h2>
+          <div class="container-options-caracteres-inputs">
+            <div class="container-options-caracteres-inputs-div">
+              <input type="checkbox" name="letrasABC" id="letrasABC">
+              <label for="letrasABC">ABC</label>
+            </div>
+            <div class="container-options-caracteres-inputs-div">
+              <input type="checkbox" name="letrasabc" id="letrasabc">
+              <label for="letrasabc">abc</label>
+            </div>
+            <div class="container-options-caracteres-inputs-div">
+              <input type="checkbox" name="numeros123" id="numeros123">
+              <label for="numeros123">123</label>
+            </div>
+            <div class="container-options-caracteres-inputs-div">
+              <input type="checkbox" name="simbolos" id="simbolos">
+              <label for="simbolos">!@#</label>
+            </div>
+          </div>
         </div>
 
-        <div>
-            <label for="apenasLetras">Letras</label>
-            <input type="checkbox" name="apenasLetras" id="apenasLetras">
 
+        <div class="container-gerator">
+          <h1>Password Generator 🔒</h1>
+          <div class="container-input">
+            <span>Size <span id="valor"></span> characters</span>
+            <input id="slider" class="slider" type="range" min="1" max="50" value="15" />
+            <button id="button" class="button-cta" onclick="generatePassword()">Generate password</button>
+          </div>
+          <div id="container-password" class="container-password hide">
+            <span class="title" id="suasenha">Your generated password was:</span>
+            <div id="password-created" onclick="copyPassword()">
+              <span id="password" class="password"></span>
+              <span class="tooltip">Click on the password to copy.👆</span>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <label for="apenasLetrasMaiusculas">Letras Maiusculas</label>
-          <input type="checkbox" name="apenasLetrasMaiusculas" id="apenasLetrasMaiusculas">
+
+
 
       </div>
-
-        <div>
-          <label for="apenasSimbolos">Simbolos</label>
-          <input type="checkbox" name="apenasSimbolos" id="apenasSimbolos">
-        </div>
-
     </div>
 
+  </main>
 
-</header>
-  
 
-  <div class="container-input">
-    <span>Tamanho <span id="valor"></span> caracteres</span>
-    <input id="slider" class="slider" type="range" min="1" max="50" value="15"/>
 
-    <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
-  </div>
 
-  <div id="container-password" onclick="copyPassword()" class="container-password hide">
-    <span class="title" id="suasenha">Sua senha gerada foi:</span>
-    <span id="password"  class="password"></span>
-    <span class="tooltip">Clique na senha para copiar. 👆</span>
-  </div>
 
-  <script src="script.js" defer></script>
+
+
 </body>
+
 </html>
