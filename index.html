@@ -27,19 +27,19 @@
           <h2>Characters:</h2>
           <div class="container-options-caracteres-inputs">
             <div class="container-options-caracteres-inputs-div">
-              <input type="checkbox" name="letrasABC" id="letrasABC">
+              <input type="checkbox" name="letrasABC" id="letrasABC" checked>
               <label for="letrasABC">ABC</label>
             </div>
             <div class="container-options-caracteres-inputs-div">
-              <input type="checkbox" name="letrasabc" id="letrasabc">
+              <input type="checkbox" name="letrasabc" id="letrasabc" checked>
               <label for="letrasabc">abc</label>
             </div>
             <div class="container-options-caracteres-inputs-div">
-              <input type="checkbox" name="numeros123" id="numeros123">
+              <input type="checkbox" name="numeros123" id="numeros123" checked>
               <label for="numeros123">123</label>
             </div>
             <div class="container-options-caracteres-inputs-div">
-              <input type="checkbox" name="simbolos" id="simbolos">
+              <input type="checkbox" name="simbolos" id="simbolos" checked>
               <label for="simbolos">!@#</label>
             </div>
           </div>
@@ -55,12 +55,20 @@
           </div>
           <div id="container-password" class="container-password hide">
             <span class="title" id="suasenha">Your generated password was:</span>
-            <div id="password-created" onclick="copyPassword()">
+            <div id="password-created" onclick="copyPassword(this)">
               <span id="password" class="password"></span>
               <span class="tooltip">Click on the password to copy.👆</span>
             </div>
           </div>
         </div>
+
+        <div>
+          <h1>senhas Geradas</h1>
+          <div class="meuspassowds">
+              <ul class="created-passwords" id="createdPasswords"></ul>
+          </div>
+        </div>
+
 
 
 

@@ -1,12 +1,8 @@
 let sliderElement = document.querySelector("#slider");
 let suasenha = document.querySelector("#suasenha");
 let sizePassword = document.querySelector("#valor");
-let password = document.querySelector("#password");
 let containerPassword = document.querySelector("#container-password");
-
-console.log(containerPassword)
-
-let novaSenha = "";
+let createdPasswords = document.querySelector("#createdPasswords");
 
 sizePassword.innerHTML = sliderElement.value;
 
@@ -46,7 +42,6 @@ function generatePassword() {
   if (charset === "") {
     containerPassword.classList.remove("hide");
     suasenha.innerHTML = "Choose a character category!";
-    password.innerHTML = "❌❌❌❌❌❌";
     return; // Retorna sem gerar a senha se nenhuma opção estiver selecionada
   }
 
@@ -58,10 +53,30 @@ function generatePassword() {
   containerPassword.classList.remove("hide");
   suasenha.innerHTML = "Your generated password was:";
   password.innerHTML = pass;
+
+  
+  // Cria um novo elemento p com uma senha e um botão
+  const newPasswordElement = document.createElement('li');
+  newPasswordElement.className = "senha-gerada";
+  newPasswordElement.title = pass;
+  newPasswordElement.textContent = pass;
+
+  const copyButton = document.createElement('button');
+  copyButton.textContent = "Copy";
+  copyButton.onclick = function() {
+    copyPassword(pass);
+  };
+
+  newPasswordElement.appendChild(copyButton);
+  createdPasswords.insertBefore(newPasswordElement, createdPasswords.firstChild);
 }
 
-function copyPassword(pass) {
-  novaSenha = pass;
-  navigator.clipboard.writeText(novaSenha);
-  alert("Senha copiada com sucesso!");
+function copyPassword(text) {
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      alert("Senha copiada com sucesso!");
+    })
+    .catch(err => {
+      console.error('Erro ao copiar a senha: ', err);
+    });
 }
