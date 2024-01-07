@@ -62,6 +62,18 @@ function generatePassword() {
   newPasswordElement.textContent = pass;
   newPasswordElement.setAttribute('draggable', 'true'); // Adiciona a propriedade draggable
 
+
+  function deleteItem(event) {
+    const itemToDelete = event.target.parentNode;
+    itemToDelete.remove();
+  }
+
+  const delButton = document.createElement('button');
+  delButton.textContent = "del";
+  delButton.onclick = deleteItem; // Chama a função para deletar o item
+  newPasswordElement.appendChild(delButton); // Adiciona o botão de delete
+
+
   // função de arrastar drag and drop
 
   const columns = document.querySelectorAll(".column");
@@ -102,12 +114,7 @@ function getNewPosition(column, posY) {
 }
 
 
-
-
-
-
-
-
+// butao de copiar
 
   const copyButton = document.createElement('button');
   copyButton.textContent = "Copy";
@@ -117,6 +124,17 @@ function getNewPosition(column, posY) {
 
   newPasswordElement.appendChild(copyButton);
   createdPasswords.insertBefore(newPasswordElement, createdPasswords.firstChild);
+
+
+  // const delButton = document.createElement('button');
+  // delButton.textContent = "del";
+  // delButton.onclick = function() {
+  //   document.querySelectorAll('.item').remove()
+  // };
+
+  // newPasswordElement.appendChild(delButton);
+  // createdPasswords.insertBefore(newPasswordElement, createdPasswords.firstChild);
+
 }
 
 function copyPassword(text) {
@@ -129,10 +147,5 @@ function copyPassword(text) {
     });
 }
 
-
-
-//////////////////////////////
-
-// Drag and Drop
 
 
