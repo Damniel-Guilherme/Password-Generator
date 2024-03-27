@@ -1,18 +1,18 @@
 <div align="center">
     <h1>API Pokemon</h1>
     <div> 
-        <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Site-API-Pokemon" style="pointer-events: none;" />
-        <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Site-API-Pokemon" style="pointer-events: none;" />
-        <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Site-API-Pokemon" style="pointer-events: none;" />
-        <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Site-API-Pokemon" style="pointer-events: none;" />
-        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Site-API-Pokemon" style="pointer-events: none;" />
-        <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/LadingPage-iMovi" style="pointer-events: none;" />
+        <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+        <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+        <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+        <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+        <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
     </div>
 </div>
 
 ## Descrição 📝
 
-O **Site API Pokemon** é um site desenvolvido com o propósito de aprendizado, seguindo o roadmap [RoadMap ETAPA 2 - HTML, CSS E JAVASCRIPT] PROJETO 1.
+O **Gerador-de-Senha** é um site desenvolvido com o propósito de aprendizado, seguindo o roadmap [RoadMap ETAPA 2 - HTML, CSS E JAVASCRIPT] PROJETO 2.
 
 ## Tabela de Conteúdos
 
