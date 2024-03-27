@@ -50,8 +50,8 @@ O objetivo central deste projeto é incentivar a aquisição e o aprimoramento d
 ## Preview do Projeto
 
 <div style="display: flex; flex-direction: row;">
-        <img src="https://i.imgur.com/yuRv6Fn.png" alt="Imagem Mobile" width="100">
-        <img src="https://i.imgur.com/5qbDPmB.png" alt="Imagem Desktop" width="250">
+  <img src="https://i.imgur.com/yuRv6Fn.png" alt="Imagem Mobile" width="100">
+  <img src="https://i.imgur.com/5qbDPmB.png" alt="Imagem Desktop" width="250">
 </div>
 
 ## Instalação ⚙️
@@ -61,13 +61,13 @@ Para instalar e utilizar o **API Pokemon**, siga estas etapas:
 1. **Clone o repositório:** 📜
 
 ```bash
-git clone https://github.com/Damniel-Guilherme/Site-API-Pokemon.git
+git clone https://github.com/Damniel-Guilherme/Gerador-de-Senha.git
 ```
 
 2. **Acesse o diretório do projeto:** 📁
 
 ```bash
-cd Site API Pokemon
+cd Site Gerador de Senha
 ```
 
 ## Uso 💬
