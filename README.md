@@ -1,13 +1,13 @@
 <div align="center">
-    <h1>API Pokemon</h1>
-    <div> 
-        <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-        <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-        <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-        <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-        <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    </div>
+  <h1>API Pokemon</h1>
+  <div> 
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+  </div>
 </div>
 
 ## Descrição 📝
@@ -81,51 +81,49 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 ## Linguagens Utilizadas 📚
 
 <div>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="25" title="Google Chrome" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">HTML:</strong> Utilizado para estruturar e definir o conteúdo do nosso projeto web de forma semântica e acessível.
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">CSS:</strong> Utilizado para estilizar e formatar o conteúdo HTML, proporcionando uma apresentação visual atraente e consistente.
+  </div>
     <div style="display: flex; align-items: center; margin-bottom: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="25" title="Google Chrome" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">HTML:</strong> Utilizado para estruturar e definir o conteúdo do nosso projeto web de forma semântica e acessível.
-    </div>
-    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">CSS:</strong> Utilizado para estilizar e formatar o conteúdo HTML, proporcionando uma apresentação visual atraente e consistente.
-    </div>
-        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-        <img src="https://img.icons8.com/?size=512&id=108784&format=png" width="25" title="JavaScript" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">JavaScript:</strong> JavaScript é uma linguagem de programação de alto nível, interpretada e dinâmica, amplamente utilizada para criar conteúdo interativo em páginas da web.
-    </div>
-
-
+    <img src="https://img.icons8.com/?size=512&id=108784&format=png" width="25" title="JavaScript" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">JavaScript:</strong> JavaScript é uma linguagem de programação de alto nível, interpretada e dinâmica, amplamente utilizada para criar conteúdo interativo em páginas da web.
+  </div>
 </div>
-
 
 ## Ferramentas 🧰🛠️
 
 <div>
-  <div style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="25" title="VSCode" style="pointer-events: none;"/> 
-    <strong>VSCode:</strong> 
-    <span>Um editor de código fonte gratuito e altamente personalizável para desenvolvimento web.</span>
-  </div>
-
-  <div style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="25" title="Git" style="pointer-events: none;"/> 
-    <strong>Git:</strong> 
-    <span>Um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento colaborativo de projetos de software.</span>
-  </div>
-
-  <div style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original-wordmark.svg" width="25" title="Google Chrome" style="pointer-events: none;"/> 
-    <strong>Google Chrome:</strong> 
-    <span>Um dos navegadores mais populares, ideal para testar e depurar projetos web.</span>
-  </div>
-
-  <div style="display: flex; align-items: center;">
-    <img src="https://img.icons8.com/?size=512&id=iWw83PVcBpLw&format=png" width="25" title="Canva" style="pointer-events: none;" /> 
-    <strong>Canva:</strong> 
-    <span>Uma plataforma de design gráfico online que permite criar uma variedade de conteúdos visuais, como apresentações, cartazes, mídias sociais, entre outros, de forma simples e intuitiva.</span>
-  </div>
 
 <div style="display: flex; align-items: center;">
-    <img src="https://img.icons8.com/?size=512&id=W0YEwBDDfTeu&format=png" width="25" title="Canva" style="pointer-events: none;" /> 
-    <strong>Figma:</strong> 
-    <span>Uma plataforma de design gráfico online que permite criar uma variedade de conteúdos visuais, como apresentações, cartazes, mídias sociais, entre outros, de forma simples e intuitiva.</span>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="25" title="VSCode" style="pointer-events: none;"/> 
+  <strong>VSCode:</strong> 
+  <span>Um editor de código fonte gratuito e altamente personalizável para desenvolvimento web.</span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="25" title="Git" style="pointer-events: none;"/> 
+  <strong>Git:</strong> 
+  <span>Um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento colaborativo de projetos de software.</span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original-wordmark.svg" width="25" title="Google Chrome" style="pointer-events: none;"/> 
+  <strong>Google Chrome:</strong> 
+  <span>Um dos navegadores mais populares, ideal para testar e depurar projetos web.</span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <img src="https://img.icons8.com/?size=512&id=iWw83PVcBpLw&format=png" width="25" title="Canva" style="pointer-events: none;" /> 
+  <strong>Canva:</strong> 
+  <span>Uma plataforma de design gráfico online que permite criar uma variedade de conteúdos visuais, como apresentações, cartazes, mídias sociais, entre outros, de forma simples e intuitiva.</span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <img src="https://img.icons8.com/?size=512&id=W0YEwBDDfTeu&format=png" width="25" title="Canva" style="pointer-events: none;" /> 
+  <strong>Figma:</strong> 
+  <span>Uma plataforma de design gráfico online que permite criar uma variedade de conteúdos visuais, como apresentações, cartazes, mídias sociais, entre outros, de forma simples e intuitiva.</span>
 </div>
 
 </div>
@@ -139,8 +137,8 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 **Versão Mobile**
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://i.imgur.com/4fxat2M.png" width="100px">
-    <img src="https://i.imgur.com/0WnPtS8.png" width="100px">
+  <img src="https://i.imgur.com/4fxat2M.png" width="100px">
+  <img src="https://i.imgur.com/0WnPtS8.png" width="100px">
 </div>
 
 <br>
@@ -148,8 +146,8 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 **Versão Desktop**
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://i.imgur.com/yLCRnFI.png" width="250px">
-    <img src="https://i.imgur.com/aPjI7iU.png" width="250px">
+  <img src="https://i.imgur.com/yLCRnFI.png" width="250px">
+  <img src="https://i.imgur.com/aPjI7iU.png" width="250px">
 </div>
 
 ## Testes 🔧
