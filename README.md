@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>API Pokemon</h1>
+  <h1>Password Generator</h1>
   <div> 
     <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
     <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
