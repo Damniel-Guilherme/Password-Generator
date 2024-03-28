@@ -50,8 +50,8 @@ O objetivo central deste projeto é incentivar a aquisição e o aprimoramento d
 ## Preview do Projeto
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://i.imgur.com/yuRv6Fn.png" alt="Imagem Mobile" width="100">
-  <img src="https://i.imgur.com/5qbDPmB.png" alt="Imagem Desktop" width="250">
+  <img src="" alt="Imagem Mobile" width="100">
+  <img src="" alt="Imagem Desktop" width="250">
 </div>
 
 ## Instalação ⚙️
