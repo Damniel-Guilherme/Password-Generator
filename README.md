@@ -67,7 +67,7 @@ git clone https://github.com/Damniel-Guilherme/Gerador-de-Senha.git
 2. **Acesse o diretório do projeto:** 📁
 
 ```bash
-cd Site Gerador de Senha
+cd Gerador-de-Senha
 ```
 
 ## Uso 💬
