@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   createCheckboxes(document.getElementById('uppercase-options'), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ');
   createCheckboxes(document.getElementById('lowercase-options'), 'abcdefghijklmnopqrstuvwxyz');
   createCheckboxes(document.getElementById('numbers-options'), '0123456789');
-  createCheckboxes(document.getElementById('symbols-options'), '!@#$%^&*()_+~`|}{[]\:;?><,./-=');
+  createCheckboxes(document.getElementById('symbols-options'), '!@#$%^&*()_+~`|}{[]\\:;?><,./-=');
 
   // Adiciona evento de clique ao botão "Personalizar" para abrir o modal correspondente
   document.querySelectorAll('.modal-btn').forEach(function(btn) {
@@ -47,8 +47,15 @@ document.addEventListener('DOMContentLoaded', function () {
   // Adiciona evento de clique ao botão "Gerar Senha"
   document.getElementById('generate-btn').addEventListener('click', function () {
     var length = document.getElementById('length').value;
-    // Limita o comprimento da senha a 128 caracteres
-    length = Math.min(length, 128);
+    
+    // Limita o comprimento da senha a 200 caracteres
+    length = Math.min(length, 200);
+
+    if (length > 200) {
+      alert('O comprimento máximo da senha é 200 caracteres.');
+      return;
+    }
+
     var charset = '';
     var useUppercase = document.getElementById('uppercase').checked;
     var useLowercase = document.getElementById('lowercase').checked;
@@ -89,8 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     var password = generatePassword(charset, length);
-    var displayedPassword = password.length > 20 ? password.substring(0, 20) + "..." : password;
-    document.getElementById('password').innerText = displayedPassword;
+    document.getElementById('password').innerText = password;
     document.getElementById('copy-btn').style.display = 'inline';
   });
 
@@ -113,5 +119,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
-
-
