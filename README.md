@@ -1,12 +1,12 @@
-<div align="center">
+<div style="text-align: center;">
   <h1>Password Generator</h1>
   <div> 
-    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
-    <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/Gerador-de-Senha" style="pointer-events: none;" />
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
+    <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
+    <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
   </div>
 </div>
 
@@ -50,8 +50,8 @@ O objetivo central deste projeto é incentivar a aquisição e o aprimoramento d
 ## Preview do Projeto
 
 <div style="display: flex; flex-direction: row;">
-  <img src="" alt="Imagem Mobile" width="100">
-  <img src="" alt="Imagem Desktop" width="250">
+  <img src="https://i.imgur.com/KA7EtVL.png" alt="Imagem Mobile" width="100">
+  <img src="https://i.imgur.com/Da4exxG.png" alt="Imagem Desktop" width="250">
 </div>
 
 ## Instalação ⚙️
@@ -137,8 +137,8 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 **Versão Mobile**
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="https://i.imgur.com/4fxat2M.png" width="100px">
-  <img src="https://i.imgur.com/0WnPtS8.png" width="100px">
+  <img src="https://i.imgur.com/D9syhfO.png" width="100px">
+  <img src="https://i.imgur.com/RP5KMkw.png" width="100px">
 </div>
 
 <br>
@@ -147,14 +147,14 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 
 <div style="display: flex; flex-wrap: wrap;">
   <img src="https://i.imgur.com/yLCRnFI.png" width="250px">
-  <img src="https://i.imgur.com/aPjI7iU.png" width="250px">
+  <img src="https://i.imgur.com/WmcWAbb.png" width="250px">
 </div>
 
 ## Testes 🔧
 
 Lighthouse Chrome Test
 
-<img src="https://i.imgur.com/GdWsqIE.jpeg" width="300px">
+<img src="https://i.imgur.com/U7tAAf3.png" width="300px">>
 
 ## Aprendizados 💡
 
@@ -213,7 +213,7 @@ Por favor, leia atentamente nossas diretrizes de contribuição antes de começa
 
 Se você tiver alguma dúvida ou sugestão sobre o Projeto, entre em contato:
 
-[![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:SEUGMAIL) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEUUSERNAME/) [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@SEUUSERNAME/) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://seulink.com)
+[![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:danielguilhermetb@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/damniel-guilherme-2b1600250/) [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@damnielguilherme/) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://www.linkedin.com/in/damniel-guilherme-2b1600250/)
 
 Não hesite em nos contatar. Estamos sempre aqui para ajudar!
 
