@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
   <h1>Password Generator</h1>
   <div> 
     <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/Password-Generator" style="pointer-events: none;" />
